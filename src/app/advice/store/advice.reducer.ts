@@ -9,7 +9,7 @@ const initalState: State = null;
 
 export const reducer = createReducer(
   initalState,
-  on(AdviceActions.setSlip, (state, { slip }) => ({ ...state, slip }))
+  on(AdviceActions.setSlip, (state, { slip }): State => ({ ...state, ...slip }))
 );
 
 export const selectAdvice = (state: State) => state.advice;
