@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  --color-primary-light-cyan: hsl(193, 38%, 86%);
+  --color-primary-neon-green: hsl(150, 100%, 66%);
+
+  --color-neutral-grayish-blue: hsl(217, 19%, 38%);
+  --color-neutral-dark-grayish-blue: hsl(217, 19%, 24%);
+  --color-neutral-dark-blue: hsl(218, 23%, 16%);
+}
+
+body {
+  font-family: "Manrope", Roboto, "Helvetica Neue", sans-serif;
+  font-size: 1.625rem;
+  font-weight: 800;
+}
+
