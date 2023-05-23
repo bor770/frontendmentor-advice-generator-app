@@ -1,0 +1,31 @@
+h1 {
+  color: var(--color-primary-neon-green);
+  font-size: 0.65rem;
+  letter-spacing: 3.5px;
+  margin-top: 2.55rem;
+  text-transform: uppercase;
+}
+
+p {
+  align-items: center;
+  color: var(--color-primary-light-cyan);
+  display: flex;
+  font-size: 1.4rem;
+  height: 11.2rem;
+  justify-content: center;
+  margin-inline: auto;
+  width: 17.813rem;
+}
+
+@media (min-width: 90rem) {
+  h1 {
+    font-size: 0.8rem;
+    letter-spacing: 4px;
+    margin-top: 3rem;
+  }
+
+  p {
+    font-size: 1.75rem;
+    height: 11.05rem;
+  }
+}

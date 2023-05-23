@@ -15,7 +15,7 @@ import * as AdviceActions from './advice.actions';
 export class AdviceEffects {
   fetchSlip = createEffect(() => {
     return this.actions$.pipe(
-      ofType(ROOT_EFFECTS_INIT),
+      ofType(ROOT_EFFECTS_INIT, AdviceActions.fetchSlip),
       switchMap(() =>
         this.http
           .get<APIResponse>(`https://api.adviceslip.com/advice`)

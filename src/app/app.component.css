@@ -1,0 +1,22 @@
+:host {
+  background-color: var(--color-neutral-dark-grayish-blue);
+  border-radius: 10px;
+  height: 19.687rem;
+  position: relative;
+  text-align: center;
+  width: 21.562rem;
+}
+
+app-dice {
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 50%);
+}
+
+@media (min-width: 90rem) {
+  :host {
+    height: 20.8rem;
+    width: 33.75rem;
+  }
+}

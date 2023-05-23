@@ -5,12 +5,12 @@ import * as AdviceActions from './advice.actions';
 
 export type State = Slip;
 
-const initalState: State = null;
+const initalState: State = { advice: null, id: null };
 
-export const reducer = createReducer(
+export const adviceReducer = createReducer(
   initalState,
   on(AdviceActions.setSlip, (state, { slip }): State => ({ ...state, ...slip }))
 );
 
-export const selectAdvice = (state: State) => state.advice;
-export const selectId = (state: State) => state.id;
+export const getAdvice = (state: State) => state.advice;
+export const getId = (state: State) => state.id;
