@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "frontendmentor-advice": {
+      "hosting": {
+        "advice-generator-app": [
+          "frontendmentor-advice"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "frontendmentor-advice"
+  }
+}
