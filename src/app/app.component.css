@@ -1,5 +1,4 @@
 :host {
-  background-color: var(--dark-blue);
   display: block;
   height: 41.7rem;
   padding-top: 7.5rem;
@@ -21,4 +20,23 @@ article {
 
 app-advice {
   margin-bottom: 1.5rem;
+}
+
+@media (min-width: 1280px) {
+  :host {
+    align-items: center;
+    display: flex;
+    height: 50.6rem;
+    padding: unset;
+  }
+
+  main {
+    border-radius: 15px;
+    padding: 3rem 3rem 0;
+    width: 33.7rem;
+  }
+
+  app-advice {
+    margin-bottom: 2.5rem;
+  }
 }

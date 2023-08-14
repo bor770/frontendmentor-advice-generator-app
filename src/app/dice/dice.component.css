@@ -11,3 +11,9 @@ button {
   position: absolute;
   transform: translate(-50%, 50%);
 }
+
+@media (min-width: 1280px) {
+  picture {
+    padding-bottom: 4.5rem;
+  }
+}
