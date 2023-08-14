@@ -43,3 +43,8 @@ Thumbs.db
 
 advice-generator-app-figma
 advice-generator-app-main
+
+# Firebase
+.firebase
+*-debug.log
+.runtimeconfig.json
