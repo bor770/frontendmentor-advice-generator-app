@@ -1,0 +1,13 @@
+picture {
+  display: block;
+  padding-bottom: 4rem;
+}
+
+button {
+  background: none;
+  border: none;
+  bottom: 0;
+  cursor: pointer;
+  position: absolute;
+  transform: translate(-50%, 50%);
+}

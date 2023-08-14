@@ -1,0 +1,15 @@
+<picture>
+  <source
+    media="(min-width: 600px)"
+    srcset="../assets/images/pattern-divider-desktop.svg"
+  />
+  <img src="../assets/images/pattern-divider-mobile.svg" alt="divider" />
+</picture>
+<button (click)="onButtonClick()">
+  <img
+    [src]="imgSrc"
+    alt="Dice"
+    (mouseenter)="onMouseEnter()"
+    (mouseleave)="onMouseLeave()"
+  />
+</button>

@@ -1,0 +1,17 @@
+:host {
+  display: block;
+}
+
+h1 {
+  color: var(--neon-green);
+  font-size: 0.7rem;
+  letter-spacing: 3.4px;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+}
+
+p {
+  color: var(--light-cyan);
+  font-size: 1.5rem;
+  letter-spacing: -0.2px;
+}

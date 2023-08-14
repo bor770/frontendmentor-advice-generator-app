@@ -40,3 +40,6 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+advice-generator-app-figma
+advice-generator-app-main

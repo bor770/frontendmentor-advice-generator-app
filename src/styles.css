@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* colors */
+  --light-cyan: #cee3e9;
+  --neon-green: #53ffaa;
+  --grayish-blue: #4f5d74;
+  --dark-grayish-blue: #313a48;
+  --dark-blue: #202733;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+}

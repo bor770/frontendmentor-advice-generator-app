@@ -1,13 +1,14 @@
-import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Component } from '@angular/core';
+
+import { AdviceComponent } from './advice/advice.component';
+import { DiceComponent } from './dice/dice.component';
 
 @Component({
+  imports: [CommonModule, AdviceComponent, DiceComponent],
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule],
+  styleUrls: ['./app.component.css'],
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'advice-generator-app';
-}
+export class AppComponent {}
